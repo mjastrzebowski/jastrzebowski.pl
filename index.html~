@@ -4,6 +4,12 @@
 <head>
     
     <title>Michal Kasjan Jastrzebowski - Web & Mobile Developer</title>
+    
+    <meta property="og:title" content="Michał Kasjan Jastrzębowski - Web & Mobile Developer" />
+    <meta property="og:site_name" content="jastrzebowski.pl" />
+    <meta property="og:description" content="opis facebook" />
+    <link rel="image_src" href="screen.png" />
+    
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -58,7 +64,7 @@
                     	<div class="photo-inner"><img src="images/photo.jpg" height="186" width="153" /></div>
                         <h1>MICHAL JASTRZEBOWSKI</h1>
                         <h3>WEB & MOBILE DEVELOPER</h3>
-                        <p>I like to make cool, creative websites and mobile apps. My design stash is always full of refreshing ideas. Feel free to take a look around my portfolio.</p>
+                        <p>I like to make cool, creative websites and mobile apps. I'm always full of refreshing ideas. Feel free to take a look around my portfolio.</p>
                     </div>
                     <!-- /About section -->
                      
@@ -213,15 +219,16 @@
                 <!-- Portfolio -->
                 <div id="portfolio">
 
-                     <ul id="portfolio-filter">
+                     <!--<ul id="portfolio-filter">
                         <li><a href="" class="current" data-filter="*">All</a></li>
                         <li><a href="" data-filter=".webdesign">WebDesign</a></li>
                         <li><a href="" data-filter=".photoghraphy">Photoghraphy</a></li>
                         <li><a href="" data-filter=".illustration">Illustration</a></li>
                         <li><a href="" data-filter=".print">Print</a></li>
                         <li><a href="" data-filter=".animation">Animation</a></li>
-                    </ul>
-                    <div class="extra-text">Some of the projects i'm proud with</div>
+                    </ul>-->
+                    <!--<div class="extra-text">Some of the projects i'm proud with</div>-->
+                    <div class="extra-text">Coming soon ;- )</div>
                 </div>
                                         
                 <!-- Portfolio -->
