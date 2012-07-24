@@ -28,6 +28,20 @@
     <script type="text/javascript" src="js/jquery.gmap.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
     
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-16073336-12']);
+      _gaq.push(['_setDomainName', '.jastrzebowski.pl']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
 </head>
     <body>
         <!-- Container -->
@@ -219,90 +233,133 @@
                 <!-- Portfolio -->
                 <div id="portfolio">
 
-                     <!--<ul id="portfolio-filter">
-                        <li><a href="" class="current" data-filter="*">All</a></li>
-                        <li><a href="" data-filter=".webdesign">WebDesign</a></li>
-                        <li><a href="" data-filter=".photoghraphy">Photoghraphy</a></li>
-                        <li><a href="" data-filter=".illustration">Illustration</a></li>
-                        <li><a href="" data-filter=".print">Print</a></li>
-                        <li><a href="" data-filter=".animation">Animation</a></li>
-                    </ul>-->
-                    <!--<div class="extra-text">Some of the projects i'm proud with</div>-->
-                    <div class="extra-text">Coming soon ;- )</div>
-                </div>
-                                        
-                <!-- Portfolio -->
-                <!-- 
-                <div id="portfolio">
-
                      <ul id="portfolio-filter">
                         <li><a href="" class="current" data-filter="*">All</a></li>
-                        <li><a href="" data-filter=".webdesign">WebDesign</a></li>
-                        <li><a href="" data-filter=".photoghraphy">Photoghraphy</a></li>
-                        <li><a href="" data-filter=".illustration">Illustration</a></li>
-                        <li><a href="" data-filter=".print">Print</a></li>
-                        <li><a href="" data-filter=".animation">Animation</a></li>
+                        <li><a href="" data-filter=".web">Web</a></li>
+                        <li><a href="" data-filter=".design">Design</a></li>
+                        <li><a href="" data-filter=".mobile">Mobile</a></li>
+                        <li><a href="" data-filter=".development">Development</a></li>
+                        <li><a href="" data-filter=".projects">Projects</a></li>
+                        <li><a href="" data-filter=".social">Social Media</a></li>
                     </ul>
-                    <div class="extra-text">Some of the projects i'm proud with</div>
+                    <div class="extra-text">Some of the projects i've been working on</div>
                     <ul id="portfolio-list">
-                        <li class="illustration print">
-                            <a href="portfolio/1.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque" rel="portfolio" class="folio">
-                                <img src="portfolio/1-thumb.jpg" alt="">
-                                <h2 class="title">Hello Goodbye</h2>
-                                <span class="categorie">Print / Illustration</span> 
-                            </a>
-                    	</li>
-                        <li class="webdesign">
-                            <a href="http://www.youtube.com/embed/c9MnSeYYtYY?autoplay=1" rel="portfolio" class="folio iframe">
-                                <img src="portfolio/3-thumb.jpg" alt="" >
-                                <h2 class="title">Snow time</h2>
-                                <span class="categorie">Webdesign</span> 
-                            </a>
-                    	</li>                        
-                        <li class="photoghraphy">
-                            <a href="http://www.google.com" rel="portfolio" target="_new">
-                                <img src="portfolio/2-thumb.jpg" alt="" >                            
-                                <h2 class="title">Help us</h2>
-                                <span class="categorie">Photography</span> 
-                            </a>
-                    	</li>
-                        <li class="animation print">
-                            <a href="portfolio/4.jpg" rel="portfolio" class="folio">
-                                <img src="portfolio/4-thumb.jpg" alt="" >
-                                <h2 class="title">Sunshine</h2>
-                                <span class="categorie">Print / Animation</span> 
-                            </a>
-                    	</li>
-                        <li class="animation">
-                            <a href="portfolio/5.jpg" rel="portfolio" class="folio">
-                                <img src="portfolio/5-thumb.jpg" alt="" >
-                                <h2 class="title">Come together</h2>
-                                <span class="categorie">Animation</span> 
-                            </a>
-                    	</li>
-                        <li class="webdesign print">
-                            <a href="portfolio/6.jpg" rel="portfolio" class="folio">
-                                <img src="portfolio/6-thumb.jpg" alt="" >
-                                <h2 class="title">The yellow</h2>
-                                <span class="categorie">Webdesign / Print</span> 
-                            </a>
-                    	</li>
-                        <li class="photoghraphy">
-                            <a href="portfolio/7.jpg" rel="portfolio" class="folio">
-                                <img src="portfolio/7-thumb.jpg" alt="" >
-                                <h2 class="title">Black bird</h2>
-                                <span class="categorie">Photoghraphy</span> 
-                            </a>
-                    	</li>
-                        <li class="illustration">
-                            <a href="portfolio/8.jpg" rel="portfolio" class="folio">
-                                <img src="portfolio/8-thumb.jpg" alt="" >
-                                <h2 class="title">Revolution</h2>
-                                <span class="categorie">Illustration</span> 
-                            </a>
-                    	</li>
+                      <li class="mobile design development">
+                          <a href="portfolio/boogie.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/boogie-thumb.jpg" alt="">
+                              <h2 class="title">8. Polish Boogie Festival</h2>
+                              <span class="categorie">Mobile / Design / Development</span>
+                          </a>
+                      </li>
+                      <li class="web mobile development social projects">
+                          <a href="portfolio/zabiore.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/zabiore-thumb.jpg" alt="">
+                              <h2 class="title">zabio.re</h2>
+                              <span class="categorie">Web / Mobile / Social Media</span>
+                          </a>
+                      </li>
+                      <li class="web development">
+                          <a href="portfolio/manzuko.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/manzuko-thumb.jpg" alt="">
+                              <h2 class="title">manzuko.com</h2>
+                              <span class="categorie">Web / Development</span>
+                          </a>
+                      </li>
+                      <li class="web development projects">
+                          <a href="portfolio/hosst.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/hosst-thumb.jpg" alt="">
+                              <h2 class="title">Hosst.me</h2>
+                              <span class="categorie">Projects / Web / Development</span>
+                          </a>
+                      </li>
+                      <li class="web development">
+                          <a href="portfolio/sps.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/sps-thumb.jpg" alt="">
+                              <h2 class="title">SPS Complex</h2>
+                              <span class="categorie">Web / Development</span>
+                          </a>
+                      </li>
+                      <li class="web development projects">
+                          <a href="portfolio/fibez.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/fibez-thumb.jpg" alt="">
+                              <h2 class="title">Filmy bez limitu</h2>
+                              <span class="categorie">Projects / Web / Development</span>
+                          </a>
+                      </li>
+                      <li class="web development">
+                          <a href="portfolio/seans24.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/seans24-thumb.jpg" alt="">
+                              <h2 class="title">Seans24</h2>
+                              <span class="categorie">Web / Development</span>
+                          </a>
+                      </li>
+                      <li class="web development">
+                          <a href="portfolio/downfiles.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/downfiles-thumb.jpg" alt="">
+                              <h2 class="title">DownFiles</h2>
+                              <span class="categorie">Web / Development</span>
+                          </a>
+                      </li>
+                      <li class="web development">
+                          <a href="portfolio/ofensywa.jpg" title="" rel="portfolio" class="folio">
+                              <img src="portfolio/ofensywa-thumb.jpg" alt="">
+                              <h2 class="title">Ofensywa Paintball</h2>
+                              <span class="categorie">Web / Development</span>
+                          </a>
+                      </li>
+                      <!--
+                      <li class="webdesign">
+                          <a href="http://www.youtube.com/embed/c9MnSeYYtYY?autoplay=1" rel="portfolio" class="folio iframe">
+                              <img src="portfolio/3-thumb.jpg" alt="" >
+                              <h2 class="title">Snow time</h2>
+                              <span class="categorie">Webdesign</span>
+                          </a>
+                      </li>
+                      <li class="photoghraphy">
+                          <a href="http://www.google.com" rel="portfolio" target="_new">
+                              <img src="portfolio/2-thumb.jpg" alt="" >                            
+                              <h2 class="title">Help us</h2>
+                              <span class="categorie">Photography</span> 
+                          </a>
+                      </li>
+                      <li class="animation print">
+                          <a href="portfolio/4.jpg" rel="portfolio" class="folio">
+                              <img src="portfolio/4-thumb.jpg" alt="" >
+                              <h2 class="title">Sunshine</h2>
+                              <span class="categorie">Print / Animation</span> 
+                          </a>
+                      </li>
+                      <li class="animation">
+                          <a href="portfolio/5.jpg" rel="portfolio" class="folio">
+                              <img src="portfolio/5-thumb.jpg" alt="" >
+                              <h2 class="title">Come together</h2>
+                              <span class="categorie">Animation</span> 
+                          </a>
+                      </li>
+                      <li class="webdesign print">
+                          <a href="portfolio/6.jpg" rel="portfolio" class="folio">
+                              <img src="portfolio/6-thumb.jpg" alt="" >
+                              <h2 class="title">The yellow</h2>
+                              <span class="categorie">Webdesign / Print</span> 
+                          </a>
+                      </li>
+                      <li class="photoghraphy">
+                          <a href="portfolio/7.jpg" rel="portfolio" class="folio">
+                              <img src="portfolio/7-thumb.jpg" alt="" >
+                              <h2 class="title">Black bird</h2>
+                              <span class="categorie">Photoghraphy</span> 
+                          </a>
+                      </li>
+                      <li class="illustration">
+                          <a href="portfolio/8.jpg" rel="portfolio" class="folio">
+                              <img src="portfolio/8-thumb.jpg" alt="" >
+                              <h2 class="title">Revolution</h2>
+                              <span class="categorie">Illustration</span> 
+                          </a>
+                      </li>
+                      -->
                     </ul>
-                </div>-->
+                </div>
                 <!-- /Portfolio -->   
                 
                 <!-- Contact -->
