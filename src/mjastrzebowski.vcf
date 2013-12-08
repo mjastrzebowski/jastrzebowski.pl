@@ -1,0 +1,22 @@
+BEGIN:VCARD
+VERSION:3.0
+CLASS:PUBLIC
+PRODID:-//TAAT PHP vCard Class//NONSGML Version 1//SE
+REV:2012-07-21
+TZ:+0200
+FN:Michal Jastrzebowski
+N:Jastrzebowski,Michal
+NICKNAME:mishu
+SORTSTRING:Jastrzebowski
+BDAY:30.07.1991
+ROLE:Programista
+EMAIL;TYPE=INTERNET,PREF:michal.jastrzebowski@gmail.com
+EMAIL;TYPE=INTERNET:michal.jastrzebowski@gmail.com
+TEL;TYPE=VOICE,CELL:+48 535 381 448
+TEL;TYPE=VOICE,WORK:+48 535 381 448
+URL:http://jastrzebowski.pl
+ADR;TYPE=HOME,POSTAL,PARCEL:;;Rynek;Czluchow;77-300;Polska
+LABEL;TYPE=DOM,HOME,POSTAL,PARCEL:Rynek\r\nCzluchow\r\n77-300\r\nPolska
+ADR;TYPE=WORK,POSTAL,PARCEL:;;Strzegomska;Wroclaw;54-432;Polska
+LABEL;TYPE=DOM,WORK,POSTAL,PARCEL:Strzegomska\r\nWroclaw\r\n54-432\r\nPolska
+END:VCARD

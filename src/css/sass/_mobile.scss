@@ -1,0 +1,58 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 310px) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 445px) {
+  html, body {
+    font-size: 16px;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 700px) {
+// , (min-device-width : 700px) and (orientation : portrait) {
+  html, body {
+    font-size: 18px;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 1000px), 
+(min-device-width : 700px) and (orientation : landscape) {
+  html, body {
+    font-size: 20px;
+  }
+}
+
+/* bigger than Desktops and laptops ----------- */
+/*
+@media only screen 
+and (min-width : 1200px) {
+  html, body {
+    font-size: 22px;
+  }
+}
+*/
+
+/* bigger than Large screens ----------- */
+/*
+@media only screen 
+and (min-width : 1800px) {
+  html, body {
+    font-size: 24px;
+  }
+}
+*/
+
+/* retina  ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* styles */
+}

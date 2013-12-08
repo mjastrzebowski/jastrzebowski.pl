@@ -1,0 +1,27 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
+
+@mixin font-lato($weight: 400, $size: 1em) {
+  font-family: 'Lato', sans-serif;
+  font-weight: $weight;
+  font-size: $size;
+}
+@mixin font-opensans($weight: 400, $size: 1em) {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: $weight;
+  font-size: $size;
+}
+
+html, body {
+  @include font-opensans();
+  font-size: 12px;
+}
+
+@import "mobile"
