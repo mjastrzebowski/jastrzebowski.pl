@@ -116,6 +116,7 @@ section {
   text-align: left;
   @include font-opensans(300, .7em);
   article {
+    min-height: 80%;
     padding: 2em 3.5em;
     position: relative;
     .content {
